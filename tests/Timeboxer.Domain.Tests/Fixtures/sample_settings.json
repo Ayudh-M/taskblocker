@@ -1,0 +1,27 @@
+{
+  "Timezone": "Europe/Amsterdam",
+  "WorkWindows": {
+    "Monday": [["08:30","18:00"]],
+    "Tuesday": [["08:30","18:00"]],
+    "Wednesday": [["08:30","18:00"]],
+    "Thursday": [["08:30","18:00"]],
+    "Friday": [["08:30","18:00"]],
+    "Saturday": [],
+    "Sunday": []
+  },
+  "DeepWorkWindows": {
+    "Monday": [["08:30","11:30"]],
+    "Tuesday": [["08:30","11:30"]],
+    "Wednesday": [["08:30","11:30"]],
+    "Thursday": [["08:30","11:30"]],
+    "Friday": [["08:30","11:30"]],
+    "Saturday": [],
+    "Sunday": []
+  },
+  "MaxTimeboxMinutes": 50,
+  "MinBreakMinutes": 10,
+  "DailyBufferPercent": 15,
+  "Contingency": { "Easy": 0, "Med": 10, "Hard": 25, "VHard": 50 },
+  "TagClusteringEnabled": true,
+  "WritebackToGoogle": false
+}

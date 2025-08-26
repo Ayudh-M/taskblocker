@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AE52D72-309A-4078-ACF0-045139DC696D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Domain", "src\Timeboxer.Domain\Timeboxer.Domain.csproj", "{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Cli", "src\Timeboxer.Cli\Timeboxer.Cli.csproj", "{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Infrastructure.Google", "src\Timeboxer.Infrastructure.Google\Timeboxer.Infrastructure.Google.csproj", "{C26BDF3B-0ED7-4760-B4A6-226EC916BA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Persistence", "Timeboxer.Persistence\Timeboxer.Persistence.csproj", "{4F96E6AA-CC0C-44F4-8845-007E8D017A5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FA629DBA-298C-4BE5-BF2B-CCF716DD8E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Domain.Tests", "tests\Timeboxer.Domain.Tests\Timeboxer.Domain.Tests.csproj", "{85ECF150-B5FC-465B-BA46-8FF876B503A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timeboxer.Infrastructure.Tests", "tests\Timeboxer.Infrastructure.Tests\Timeboxer.Infrastructure.Tests.csproj", "{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26BDF3B-0ED7-4760-B4A6-226EC916BA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26BDF3B-0ED7-4760-B4A6-226EC916BA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26BDF3B-0ED7-4760-B4A6-226EC916BA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26BDF3B-0ED7-4760-B4A6-226EC916BA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F96E6AA-CC0C-44F4-8845-007E8D017A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F96E6AA-CC0C-44F4-8845-007E8D017A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F96E6AA-CC0C-44F4-8845-007E8D017A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F96E6AA-CC0C-44F4-8845-007E8D017A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85ECF150-B5FC-465B-BA46-8FF876B503A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85ECF150-B5FC-465B-BA46-8FF876B503A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85ECF150-B5FC-465B-BA46-8FF876B503A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85ECF150-B5FC-465B-BA46-8FF876B503A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E7D213A-B73B-4D02-AA29-B8B6FE84DFA2} = {0AE52D72-309A-4078-ACF0-045139DC696D}
+		{542C6CA9-E19A-4CB2-B2C3-3C51034A69EC} = {0AE52D72-309A-4078-ACF0-045139DC696D}
+		{C26BDF3B-0ED7-4760-B4A6-226EC916BA41} = {0AE52D72-309A-4078-ACF0-045139DC696D}
+		{85ECF150-B5FC-465B-BA46-8FF876B503A1} = {FA629DBA-298C-4BE5-BF2B-CCF716DD8E5E}
+		{6FFE4F40-1F7D-40F9-AB49-96F33B0C3A5D} = {FA629DBA-298C-4BE5-BF2B-CCF716DD8E5E}
+	EndGlobalSection
+EndGlobal

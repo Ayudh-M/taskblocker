@@ -1,0 +1,4 @@
+[
+  { "Id":"E1","Title":"Lecture 2IMP30","Start":"2025-08-27T10:00:00+02:00","End":"2025-08-27T12:00:00+02:00","IsBusy":true,"Source":"Google" },
+  { "Id":"E2","Title":"Gym","Start":"2025-08-27T18:30:00+02:00","End":"2025-08-27T19:30:00+02:00","IsBusy":true,"Source":"Google" }
+]
