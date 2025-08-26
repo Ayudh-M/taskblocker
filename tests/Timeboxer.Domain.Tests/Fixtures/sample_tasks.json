@@ -1,0 +1,7 @@
+[
+  { "Id":"T1", "Title":"Write DisTL section", "EstimateMinutes":180, "Deadline":"2025-08-29T17:00:00+02:00",
+    "Priority":"P1", "Difficulty":"Hard", "Tags":["writing","FSA25"], "Notes":"one key question: formalize expressiveness"
+  },
+  { "Id":"T2", "Title":"Admin email sweep", "EstimateMinutes":40, "Deadline":"2025-08-27T18:00:00+02:00",
+    "Priority":"P3", "Difficulty":"Easy", "Tags":["admin"] }
+]
